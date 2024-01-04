@@ -2,7 +2,8 @@
 
 ## **Introduction**
 
-Welcome to the Hill-ADN Cryptography repository! This innovative project amalgamates traditional Hill cipher methodologies with DNA encryption techniques, aiming to revolutionize data security. By harnessing the intricate properties of DNA sequences, this approach offers a robust and advanced encryption mechanism.
+Welcome to the Hill-ADN Cryptography repository! This innovative project amalgamates traditional Hill cipher methodologies with DNA encryption techniques, aiming to revolutionize data security. By harnessing the intricate properties of DNA sequences, this approach offers a robust and advanced encryption mechanism. For a deeper dive into the technical details and insights behind this groundbreaking fusion of classical cryptography with DNA-based techniques, [read more about it in my Medium article](https://medium.com/@benkaddourmed54/hill-adn-encryption-and-decryption-bridging-classical-cryptography-with-dna-based-techniques-e9e7fc37b415).
+
 
 ![Project Phases Flowchart](https://github.com/Cizr/Hill-ADN-Cryptography-Bridging-Classical-Ciphers-with-DNA-Based-Encryption/assets/100844208/b4d253cb-a53f-4550-8b9a-8c8e51e784e3)
 
@@ -39,6 +40,21 @@ Welcome to the Hill-ADN Cryptography repository! This innovative project amalgam
 - **Decryption Steps**: 
   - Utilize the Hill cipher decryption technique to decrypt the encrypted amino acid sequence.
   - The decrypted result yields the original amino acid sequence as the output.
+ 
+    The terminal image shows the final output of the code:
+![Desktop Screenshot 2024 01 04 - 16 53 39 09](https://github.com/Cizr/Hill-ADN-Cryptography-Bridging-Classical-Ciphers-with-DNA-Based-Encryption/assets/100844208/91a9f9df-d2d0-42db-b1de-b08b33cac101)
+
+
+## **Ambiguity in DNA Sequence Representation**
+
+One of the intriguing challenges in converting amino acid sequences to DNA sequences lies in the inherent ambiguity of the genetic code. The genetic code, responsible for translating RNA sequences into amino acids, often exhibits redundancy. For instance, multiple DNA codons can encode the same amino acid. This redundancy means that a specific amino acid, when converted back to DNA, can yield multiple potential DNA sequences.
+
+For example, the amino acid Arginine (R) has six different codons in DNA:
+- CGA, CGC, CGG, CGT, AGA, AGG
+
+Such ambiguity poses a significant challenge from a decryption standpoint. If one were to intercept an encrypted DNA sequence without prior knowledge of the key or the original plaintext amino acid sequence, deciphering it back to the correct amino acid sequence could be a daunting task due to the multitude of potential DNA sequences that could represent a single amino acid.
+
+This ambiguity not only adds an extra layer of complexity to the encryption process but also underscores the intricate and multifaceted nature of DNA-based encryption techniques.
 
 ## **Conclusion**
 
